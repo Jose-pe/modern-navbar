@@ -1,0 +1,39 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 238, 238);
+    padding: 0;
+    margin: 0;
+}
+.nav-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+.pulser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(156, 158, 160);  
+    transition-duration: 0.8s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+  }
+  
+  .pulser:hover{
+   scale: 2;
+   background-color: rgb(189, 198, 201);
+   box-shadow: 0 0 10px rgb(66, 66, 66);
+   color: whitesmoke !important;
+  }
+  .icono{
+    color: rgb(2, 2, 2);
+  }
+  
